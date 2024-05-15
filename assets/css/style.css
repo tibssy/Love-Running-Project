@@ -114,6 +114,23 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    width: 90vw;
+    height: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Hero section */
 #hero {
     width: 100%;
